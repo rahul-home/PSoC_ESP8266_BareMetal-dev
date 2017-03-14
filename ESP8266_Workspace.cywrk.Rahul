@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ESP8266_Workspace\ESP8266_Interface">
+<ExpandedNodeIds>
+<v>ESP8266_Workspace</v>
+<v>ESP8266_Workspace\ESP8266_Interface</v>
+<v>ESP8266_Workspace\ESP8266_Interface\TopDesign</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\Pins</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\Analog</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\Clocks</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\Interrupts</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\DMA</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\System</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\Directives</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\Flash Security</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.cydwr\EEPROM</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Header Files\cyapicallbacks.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Source Files\ESP8266.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Source Files\ESP8266.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Source Files\ESP8266_Config.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Source Files\main.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\Clock_1</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG\LOG.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG\LOG.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG\LOG_BOOT.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG\LOG_INT.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG\LOG_PM.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG_IntClock</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG_IntClock\LOG_IntClock.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\LOG_IntClock\LOG_IntClock.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\Pin_1</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\Pin_1\Pin_1.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\Pin_1\Pin_1.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\Pin_1\Pin_1_aliases.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel\WIFIdev_Channel.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel\WIFIdev_Channel.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel\WIFIdev_Channel_BOOT.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel\WIFIdev_Channel_INT.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel\WIFIdev_Channel_PM.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel_IntClock</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel_IntClock\WIFIdev_Channel_IntClock.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel_IntClock\WIFIdev_Channel_IntClock.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel_RxISR</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel_RxISR\WIFIdev_Channel_RxISR.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\WIFIdev_Channel_RxISR\WIFIdev_Channel_RxISR.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydevice.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cyfitter.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\cymetadata.c</v>
+<v>ESP8266_Workspace\ESP8266_Interface\Generated_Source\PSoC5\project.h</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>ESP8266_Workspace</v>
+<v>ESP8266_Workspace\ESP8266_Interface</v>
+<v>ESP8266_Workspace\ESP8266_Interface\TopDesign</v>
+<v>ESP8266_Workspace\ESP8266_Interface\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>ESP8266_Workspace</v>
+<v>ESP8266_Workspace\ESP8266_Interface</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\ESP8266.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\LOG.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\LOG_BOOT.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\LOG_INT.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\LOG_IntClock.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\LOG_PM.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\Pin_1.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\WIFIdev_Channel.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\WIFIdev_Channel_BOOT.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\WIFIdev_Channel_INT.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\WIFIdev_Channel_IntClock.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\WIFIdev_Channel_PM.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\Listing Files\WIFIdev_Channel_RxISR.lst</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\ESP8266_Interface.elf</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\ESP8266_Interface.hex</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CortexM3\ARM_GCC_493\Debug\ESP8266_Interface.map</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.gpdsc</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface.rpt</v>
+<v>ESP8266_Workspace\ESP8266_Interface\ESP8266_Interface_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>ESP8266_Workspace</v>
+<v>ESP8266_Workspace\ESP8266_Interface</v>
+<v>ESP8266_Workspace\ESP8266_Interface\PSoC 5LP Architecture TRM</v>
+<v>ESP8266_Workspace\ESP8266_Interface\CY8C58LP Family Datasheet</v>
+<v>ESP8266_Workspace\ESP8266_Interface\System Reference Guides</v>
+<v>ESP8266_Workspace\ESP8266_Interface\System Reference Guides\cy_boot_v5_50</v>
+<v>ESP8266_Workspace\ESP8266_Interface\cy_clock_v2_20.pdf</v>
+<v>ESP8266_Workspace\ESP8266_Interface\cy_isr_v1_70.pdf</v>
+<v>ESP8266_Workspace\ESP8266_Interface\cy_pins_v2_20</v>
+<v>ESP8266_Workspace\ESP8266_Interface\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>ESP8266_Workspace\ESP8266_Interface\UART_v2_50</v>
+<v>ESP8266_Workspace\ESP8266_Interface\UART_v2_50\UART_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\ESP8266_Interface.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\ESP8266_Interface.cydsn\ESP8266_Interface.cydwr" />
+<name v=".\ESP8266_Interface.cydsn\main.c" />
+<name v=".\ESP8266_Interface.cydsn\ESP8266_Config.h" />
+<name v=".\ESP8266_Interface.cydsn\ESP8266.c" />
+<name v=".\ESP8266_Interface.cydsn\ESP8266.h" />
+<name v=".\ESP8266_Interface.cydsn\Generated_Source\PSoC5\WIFIdev_Channel_RxISR.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1094, 400" SelectedTabbedMdiWindow="ee30d965-74db-4aa6-980e-d744710305dd"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="4061972d-c5f7-4f37-b2e6-45ae863131fb" /><DocumentWindow Key="4a55f76e-4086-4e96-933a-879a4f70faea" Guid="4c434476-cebf-43c5-aa77-1a6eff3cf43e" /><DocumentWindow Key="4db59431-a811-4f59-acb0-cb4b27c107a5" Guid="2b395b7b-d2ec-4975-a954-c55c8fe28638" /><DocumentWindow Key="783d24c6-766a-4588-902a-ecd1dc551a12" Guid="1b9bed66-a73c-48f6-add7-40c1933454b6" /><DocumentWindow Key="ea937ac8-1592-429b-9c58-319706e8bcca" Guid="ee30d965-74db-4aa6-980e-d744710305dd" /><DocumentWindow Key="5ff99b86-e598-435a-b7f1-7e7203d6e331" Guid="0faf1f6b-721e-4ae0-8d6a-bb854edb8b2c" /><DocumentWindow Key="48812d3c-993f-4a64-b6d0-e05e8ae384cc" Guid="5e78bcc8-5c7c-408c-a9dd-9c6d7dd7bac4" /><DocumentWindow Key="d20ee9d7-25f9-44fd-8e43-8dc6c465177a" Guid="ecd0adc0-cefd-46ea-90b9-565596ff7426" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

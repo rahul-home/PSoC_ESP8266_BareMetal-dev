@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|8a61eae7-3122-47a6-a1fc-377a526780f9
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|7609c363-87f8-41c6-b667-2706849c614d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|c4a8401c-fbdd-453c-8d8c-73cdd1daf7a8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|8b244ca3-3623-4674-82e0-b01209df62a2
+C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\ESP8266_Interface.cydsn\ESP8266_Interface.cyprj|d5e64286-76d1-48d7-8966-3aaa253ddd73

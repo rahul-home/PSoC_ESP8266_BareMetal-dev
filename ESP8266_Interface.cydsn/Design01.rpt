@@ -1,0 +1,3243 @@
+Loading plugins phase: Elapsed time ==> 0s.343ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -d CY8C5888LTI-LP097 -s C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: fit.M0032: warning: Clock Warning: (Clock_1's accuracy range '10  Hz -50% +100%, (5  Hz - 20  Hz)' is not within the specified tolerance range '10  Hz +/- 5%, (9.5  Hz - 10.5  Hz)'.).
+ * C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cydwr (Clock_1)
+ * C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\TopDesign\TopDesign.cysch (Instance:Clock_1)
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.138ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.046ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Design01.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -dcpsoc3 Design01.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  Design01.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -dcpsoc3 Design01.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  Design01.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -dcpsoc3 -verilog Design01.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sun Mar 12 00:14:59 2017
+
+
+======================================================================
+Compiling:  Design01.v
+Program  :   vpp
+Options  :    -yv2 -q10 Design01.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Sun Mar 12 00:14:59 2017
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'Design01.ctl'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1113, col 55):  Note: Substituting module 'add_vv_vv' for '+'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1122, col 48):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1122, col 77):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1389, col 59):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1424, col 61):  Note: Substituting module 'cmp_vv_vv' for '/='.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1547, col 106):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1603, col 68):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1604, col 68):  Note: Substituting module 'cmp_vv_vv' for '<'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  Design01.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -dcpsoc3 -verilog Design01.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sun Mar 12 00:14:59 2017
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\codegentemp\Design01.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\codegentemp\Design01.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  Design01.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -dcpsoc3 -verilog Design01.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sun Mar 12 00:14:59 2017
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\codegentemp\Design01.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\codegentemp\Design01.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	\WIFIdev_Channel:BUART:reset_sr\
+	Net_13
+	\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:b_1\
+	\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:b_0\
+	\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:gta_0\
+	\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:gta_0\
+	Net_8
+	\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_0\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:albi_1\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:agbi_1\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:lt_0\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:gt_0\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:lti_0\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:gti_0\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:albi_0\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:agbi_0\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:xeq\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:xlt\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:xlte\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:xgt\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:xgte\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:lt\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:eq\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:gt\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:gte\
+	\WIFIdev_Channel:BUART:sRX:MODULE_5:lte\
+	\LOG:BUART:HalfDuplexSend\
+	\LOG:BUART:FinalAddrMode_2\
+	\LOG:BUART:FinalAddrMode_1\
+	\LOG:BUART:FinalAddrMode_0\
+	\LOG:BUART:reset_sr\
+	Net_26
+	Net_27
+
+
+Deleted 33 User equations/components.
+Deleted 0 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing one to tmpOE__Pin_1_net_0
+Aliasing \WIFIdev_Channel:BUART:tx_hd_send_break\ to zero
+Aliasing \WIFIdev_Channel:BUART:HalfDuplexSend\ to zero
+Aliasing \WIFIdev_Channel:BUART:FinalParityType_1\ to zero
+Aliasing \WIFIdev_Channel:BUART:FinalParityType_0\ to zero
+Aliasing \WIFIdev_Channel:BUART:FinalAddrMode_2\ to zero
+Aliasing \WIFIdev_Channel:BUART:FinalAddrMode_1\ to zero
+Aliasing \WIFIdev_Channel:BUART:FinalAddrMode_0\ to zero
+Aliasing \WIFIdev_Channel:BUART:tx_ctrl_mark\ to zero
+Aliasing \WIFIdev_Channel:BUART:tx_status_6\ to zero
+Aliasing \WIFIdev_Channel:BUART:tx_status_5\ to zero
+Aliasing \WIFIdev_Channel:BUART:tx_status_4\ to zero
+Aliasing \WIFIdev_Channel:BUART:rx_count7_bit8_wire\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\ to tmpOE__Pin_1_net_0
+Aliasing MODIN2_1 to MODIN1_1
+Aliasing MODIN2_0 to MODIN1_0
+Aliasing \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_1\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_0\ to tmpOE__Pin_1_net_0
+Aliasing MODIN3_1 to MODIN1_1
+Aliasing MODIN3_0 to MODIN1_0
+Aliasing \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_1\ to tmpOE__Pin_1_net_0
+Aliasing \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_0\ to zero
+Aliasing \WIFIdev_Channel:BUART:rx_status_1\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_6\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_5\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_4\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_6\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_5\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_4\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_3\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_2\ to tmpOE__Pin_1_net_0
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_1\ to tmpOE__Pin_1_net_0
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_0\ to zero
+Aliasing \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_0\ to tmpOE__Pin_1_net_0
+Aliasing tmpOE__Rx_1_net_0 to tmpOE__Pin_1_net_0
+Aliasing tmpOE__Tx_1_net_0 to tmpOE__Pin_1_net_0
+Aliasing \LOG:BUART:tx_hd_send_break\ to zero
+Aliasing \LOG:BUART:FinalParityType_1\ to zero
+Aliasing \LOG:BUART:FinalParityType_0\ to zero
+Aliasing \LOG:BUART:tx_ctrl_mark\ to zero
+Aliasing \LOG:BUART:tx_status_6\ to zero
+Aliasing \LOG:BUART:tx_status_5\ to zero
+Aliasing \LOG:BUART:tx_status_4\ to zero
+Aliasing tmpOE__Rx_2_net_0 to tmpOE__Pin_1_net_0
+Aliasing tmpOE__Tx_2_net_0 to tmpOE__Pin_1_net_0
+Aliasing \WIFIdev_Channel:BUART:reset_reg\\D\ to zero
+Aliasing \WIFIdev_Channel:BUART:rx_break_status\\D\ to zero
+Aliasing \LOG:BUART:reset_reg\\D\ to zero
+Removing Lhs of wire one[7] = tmpOE__Pin_1_net_0[1]
+Removing Rhs of wire Net_14[13] = \WIFIdev_Channel:BUART:rx_interrupt_out\[32]
+Removing Lhs of wire \WIFIdev_Channel:Net_61\[14] = \WIFIdev_Channel:Net_9\[11]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_hd_send_break\[18] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:HalfDuplexSend\[19] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:FinalParityType_1\[20] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:FinalParityType_0\[21] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:FinalAddrMode_2\[22] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:FinalAddrMode_1\[23] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:FinalAddrMode_0\[24] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_ctrl_mark\[25] = zero[6]
+Removing Rhs of wire \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\[36] = \WIFIdev_Channel:BUART:tx_bitclk_dp\[72]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_counter_tc\[82] = \WIFIdev_Channel:BUART:tx_counter_dp\[73]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_status_6\[83] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_status_5\[84] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_status_4\[85] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_status_1\[87] = \WIFIdev_Channel:BUART:tx_fifo_empty\[50]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_status_3\[89] = \WIFIdev_Channel:BUART:tx_fifo_notfull\[49]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_count7_bit8_wire\[149] = zero[6]
+Removing Rhs of wire add_vv_vv_MODGEN_1_1[157] = \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:s_1\[168]
+Removing Rhs of wire add_vv_vv_MODGEN_1_0[159] = \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:s_0\[169]
+Removing Lhs of wire cmp_vv_vv_MODGEN_2[160] = \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_0\[185]
+Removing Lhs of wire cmp_vv_vv_MODGEN_3[161] = \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_0\[199]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:a_1\[162] = MODIN1_1[163]
+Removing Rhs of wire MODIN1_1[163] = \WIFIdev_Channel:BUART:pollcount_1\[155]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:a_0\[164] = MODIN1_0[165]
+Removing Rhs of wire MODIN1_0[165] = \WIFIdev_Channel:BUART:pollcount_0\[158]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[171] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[172] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:newa_1\[173] = MODIN1_1[163]
+Removing Lhs of wire MODIN2_1[174] = MODIN1_1[163]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:newa_0\[175] = MODIN1_0[165]
+Removing Lhs of wire MODIN2_0[176] = MODIN1_0[165]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_1\[177] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_0\[178] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:dataa_1\[179] = MODIN1_1[163]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:dataa_0\[180] = MODIN1_0[165]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:datab_1\[181] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:datab_0\[182] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:newa_1\[187] = MODIN1_1[163]
+Removing Lhs of wire MODIN3_1[188] = MODIN1_1[163]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:newa_0\[189] = MODIN1_0[165]
+Removing Lhs of wire MODIN3_0[190] = MODIN1_0[165]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_1\[191] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_0\[192] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:dataa_1\[193] = MODIN1_1[163]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:dataa_0\[194] = MODIN1_0[165]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:datab_1\[195] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:datab_0\[196] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_status_1\[203] = zero[6]
+Removing Rhs of wire \WIFIdev_Channel:BUART:rx_status_2\[204] = \WIFIdev_Channel:BUART:rx_parity_error_status\[205]
+Removing Rhs of wire \WIFIdev_Channel:BUART:rx_status_3\[206] = \WIFIdev_Channel:BUART:rx_stop_bit_error\[207]
+Removing Lhs of wire cmp_vv_vv_MODGEN_4[217] = \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_0\[266]
+Removing Lhs of wire cmp_vv_vv_MODGEN_5[221] = \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:xneq\[288]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_6\[222] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_5\[223] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_4\[224] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_3\[225] = MODIN4_6[226]
+Removing Rhs of wire MODIN4_6[226] = \WIFIdev_Channel:BUART:rx_count_6\[144]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_2\[227] = MODIN4_5[228]
+Removing Rhs of wire MODIN4_5[228] = \WIFIdev_Channel:BUART:rx_count_5\[145]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_1\[229] = MODIN4_4[230]
+Removing Rhs of wire MODIN4_4[230] = \WIFIdev_Channel:BUART:rx_count_4\[146]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newa_0\[231] = MODIN4_3[232]
+Removing Rhs of wire MODIN4_3[232] = \WIFIdev_Channel:BUART:rx_count_3\[147]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_6\[233] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_5\[234] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_4\[235] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_3\[236] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_2\[237] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_1\[238] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:newb_0\[239] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:dataa_6\[240] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:dataa_5\[241] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:dataa_4\[242] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:dataa_3\[243] = MODIN4_6[226]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:dataa_2\[244] = MODIN4_5[228]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:dataa_1\[245] = MODIN4_4[230]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:dataa_0\[246] = MODIN4_3[232]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:datab_6\[247] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:datab_5\[248] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:datab_4\[249] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:datab_3\[250] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:datab_2\[251] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:datab_1\[252] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:datab_0\[253] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:newa_0\[268] = \WIFIdev_Channel:BUART:rx_postpoll\[103]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:newb_0\[269] = \WIFIdev_Channel:BUART:rx_parity_bit\[220]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:dataa_0\[270] = \WIFIdev_Channel:BUART:rx_postpoll\[103]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:datab_0\[271] = \WIFIdev_Channel:BUART:rx_parity_bit\[220]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:a_0\[272] = \WIFIdev_Channel:BUART:rx_postpoll\[103]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:b_0\[273] = \WIFIdev_Channel:BUART:rx_parity_bit\[220]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_0\[275] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:eq_0\[276] = \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\[274]
+Removing Lhs of wire \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:eqi_0\[277] = \WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\[274]
+Removing Lhs of wire tmpOE__Rx_1_net_0[299] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire tmpOE__Tx_1_net_0[304] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \LOG:Net_61\[311] = \LOG:Net_9\[310]
+Removing Lhs of wire \LOG:BUART:tx_hd_send_break\[315] = zero[6]
+Removing Lhs of wire \LOG:BUART:FinalParityType_1\[317] = zero[6]
+Removing Lhs of wire \LOG:BUART:FinalParityType_0\[318] = zero[6]
+Removing Lhs of wire \LOG:BUART:tx_ctrl_mark\[322] = zero[6]
+Removing Rhs of wire \LOG:BUART:tx_bitclk_enable_pre\[333] = \LOG:BUART:tx_bitclk_dp\[369]
+Removing Lhs of wire \LOG:BUART:tx_counter_tc\[379] = \LOG:BUART:tx_counter_dp\[370]
+Removing Lhs of wire \LOG:BUART:tx_status_6\[380] = zero[6]
+Removing Lhs of wire \LOG:BUART:tx_status_5\[381] = zero[6]
+Removing Lhs of wire \LOG:BUART:tx_status_4\[382] = zero[6]
+Removing Lhs of wire \LOG:BUART:tx_status_1\[384] = \LOG:BUART:tx_fifo_empty\[347]
+Removing Lhs of wire \LOG:BUART:tx_status_3\[386] = \LOG:BUART:tx_fifo_notfull\[346]
+Removing Lhs of wire tmpOE__Rx_2_net_0[394] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire tmpOE__Tx_2_net_0[400] = tmpOE__Pin_1_net_0[1]
+Removing Lhs of wire \WIFIdev_Channel:BUART:reset_reg\\D\[406] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_bitclk\\D\[421] = \WIFIdev_Channel:BUART:rx_bitclk_pre\[138]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_parity_error_pre\\D\[430] = \WIFIdev_Channel:BUART:rx_parity_error_pre\[215]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_break_status\\D\[431] = zero[6]
+Removing Lhs of wire \LOG:BUART:reset_reg\\D\[435] = zero[6]
+
+------------------------------------------------------
+Aliased 0 equations, 116 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for 'tmpOE__Pin_1_net_0' (cost = 0):
+tmpOE__Pin_1_net_0 <=  ('1') ;
+
+Note:  Expanding virtual equation for 'zero' (cost = 0):
+zero <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:rx_addressmatch\' (cost = 0):
+\WIFIdev_Channel:BUART:rx_addressmatch\ <= (\WIFIdev_Channel:BUART:rx_addressmatch2\
+	OR \WIFIdev_Channel:BUART:rx_addressmatch1\);
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:rx_bitclk_pre\' (cost = 1):
+\WIFIdev_Channel:BUART:rx_bitclk_pre\ <= ((not \WIFIdev_Channel:BUART:rx_count_2\ and not \WIFIdev_Channel:BUART:rx_count_1\ and not \WIFIdev_Channel:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:rx_bitclk_pre16x\' (cost = 0):
+\WIFIdev_Channel:BUART:rx_bitclk_pre16x\ <= ((not \WIFIdev_Channel:BUART:rx_count_2\ and \WIFIdev_Channel:BUART:rx_count_1\ and \WIFIdev_Channel:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:rx_poll_bit1\' (cost = 1):
+\WIFIdev_Channel:BUART:rx_poll_bit1\ <= ((not \WIFIdev_Channel:BUART:rx_count_2\ and not \WIFIdev_Channel:BUART:rx_count_1\ and \WIFIdev_Channel:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:rx_poll_bit2\' (cost = 1):
+\WIFIdev_Channel:BUART:rx_poll_bit2\ <= ((not \WIFIdev_Channel:BUART:rx_count_2\ and not \WIFIdev_Channel:BUART:rx_count_1\ and not \WIFIdev_Channel:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:pollingrange\' (cost = 4):
+\WIFIdev_Channel:BUART:pollingrange\ <= ((not \WIFIdev_Channel:BUART:rx_count_2\ and not \WIFIdev_Channel:BUART:rx_count_1\));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\ <= (MODIN1_0);
+
+Note:  Expanding virtual equation for 'add_vv_vv_MODGEN_1_0' (cost = 0):
+add_vv_vv_MODGEN_1_0 <= (not MODIN1_0);
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_1\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_1\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:gta_1\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:gta_1\ <= (MODIN1_1);
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_1\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_1\ <= (not MODIN1_1);
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:gta_1\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:gta_1\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_6\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_6\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_6\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_6\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_5\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_5\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_5\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_5\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_4\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_4\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_4\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_4\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_3\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_3\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_3\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_3\ <= (MODIN4_6);
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_2\' (cost = 1):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_2\ <= ((not MODIN4_6 and not MODIN4_5));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_2\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_2\ <= (MODIN4_6);
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_1\' (cost = 2):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_1\ <= ((not MODIN4_6 and not MODIN4_4)
+	OR (not MODIN4_6 and not MODIN4_5));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_1\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:gta_1\ <= (MODIN4_6);
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_0\' (cost = 8):
+\WIFIdev_Channel:BUART:sRX:MODULE_4:g2:a0:lta_0\ <= ((not MODIN4_6 and not MODIN4_4)
+	OR (not MODIN4_6 and not MODIN4_5));
+
+
+Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_0\' (cost = 4):
+\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_0\ <= ((not MODIN1_1 and not MODIN1_0));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_0\' (cost = 0):
+\WIFIdev_Channel:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_0\ <= (not MODIN1_1);
+
+Note:  Expanding virtual equation for 'add_vv_vv_MODGEN_1_1' (cost = 2):
+add_vv_vv_MODGEN_1_1 <= ((not MODIN1_0 and MODIN1_1)
+	OR (not MODIN1_1 and MODIN1_0));
+
+
+Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:rx_postpoll\' (cost = 72):
+\WIFIdev_Channel:BUART:rx_postpoll\ <= (MODIN1_1
+	OR (Net_12 and MODIN1_0));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\' (cost = 4):
+\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\ <= ((not Net_12 and not MODIN1_1 and not \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (not MODIN1_1 and not MODIN1_0 and not \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (MODIN1_1 and \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (Net_12 and MODIN1_0 and \WIFIdev_Channel:BUART:rx_parity_bit\));
+
+Note:  Expanding virtual equation for '\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_1\' (cost = 4):
+\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_1\ <= ((not Net_12 and not MODIN1_1 and not \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (not MODIN1_1 and not MODIN1_0 and not \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (MODIN1_1 and \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (Net_12 and MODIN1_0 and \WIFIdev_Channel:BUART:rx_parity_bit\));
+
+
+Substituting virtuals - pass 4:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 33 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \WIFIdev_Channel:BUART:rx_status_0\ to zero
+Aliasing \WIFIdev_Channel:BUART:rx_status_6\ to zero
+Aliasing \WIFIdev_Channel:BUART:rx_markspace_status\\D\ to zero
+Aliasing \WIFIdev_Channel:BUART:rx_parity_error_status\\D\ to zero
+Aliasing \WIFIdev_Channel:BUART:rx_addr_match_status\\D\ to zero
+Removing Rhs of wire \WIFIdev_Channel:BUART:rx_bitclk_enable\[102] = \WIFIdev_Channel:BUART:rx_bitclk\[150]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_status_0\[201] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_status_6\[210] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:tx_ctrl_mark_last\\D\[413] = \WIFIdev_Channel:BUART:tx_ctrl_mark_last\[93]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_markspace_status\\D\[425] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_parity_error_status\\D\[426] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_addr_match_status\\D\[428] = zero[6]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_markspace_pre\\D\[429] = \WIFIdev_Channel:BUART:rx_markspace_pre\[214]
+Removing Lhs of wire \WIFIdev_Channel:BUART:rx_parity_bit\\D\[434] = \WIFIdev_Channel:BUART:rx_parity_bit\[220]
+Removing Lhs of wire \LOG:BUART:tx_ctrl_mark_last\\D\[442] = \LOG:BUART:tx_ctrl_mark_last\[390]
+
+------------------------------------------------------
+Aliased 0 equations, 10 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
+
+Note:  Deleted unused equation:
+\WIFIdev_Channel:BUART:sRX:MODULE_5:g1:a0:xneq\ <= ((not \WIFIdev_Channel:BUART:rx_parity_bit\ and Net_12 and MODIN1_0)
+	OR (not MODIN1_1 and not MODIN1_0 and \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (not Net_12 and not MODIN1_1 and \WIFIdev_Channel:BUART:rx_parity_bit\)
+	OR (not \WIFIdev_Channel:BUART:rx_parity_bit\ and MODIN1_1));
+
+
+Eliminating unused logic - pass 2:
+
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -dcpsoc3 Design01.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 0s.982ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.0.0.432, Family: PSoC3, Started at: Sunday, 12 March 2017 00:15:00
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\STORAGE\WORK_AREA\PSoC\Workspace01\Workspace01\Design01.cydsn\Design01.cyprj -d CY8C5888LTI-LP097 Design01.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech Mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Converted constant MacroCell: \WIFIdev_Channel:BUART:reset_reg\ from registered to combinatorial
+    Converted constant MacroCell: \WIFIdev_Channel:BUART:rx_markspace_status\ from registered to combinatorial
+    Converted constant MacroCell: \WIFIdev_Channel:BUART:rx_status_2\ from registered to combinatorial
+    Converted constant MacroCell: \WIFIdev_Channel:BUART:rx_addr_match_status\ from registered to combinatorial
+    Converted constant MacroCell: \WIFIdev_Channel:BUART:rx_break_status\ from registered to combinatorial
+    Converted constant MacroCell: \LOG:BUART:reset_reg\ from registered to combinatorial
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Digital Clock 0: Automatic-assigning  clock 'LOG_IntClock'. Fanout=1, Signal=\LOG:Net_9\
+    Digital Clock 1: Automatic-assigning  clock 'WIFIdev_Channel_IntClock'. Fanout=1, Signal=\WIFIdev_Channel:Net_9\
+    Digital Clock 2: Automatic-assigning  clock 'Clock_1'. Fanout=1, Signal=Net_1
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+    UDB Clk/Enable \WIFIdev_Channel:BUART:ClkSync\: with output requested to be synchronous
+        ClockIn: WIFIdev_Channel_IntClock was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: WIFIdev_Channel_IntClock, EnableOut: Constant 1
+    UDB Clk/Enable \LOG:BUART:ClkSync\: with output requested to be synchronous
+        ClockIn: LOG_IntClock was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: LOG_IntClock, EnableOut: Constant 1
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+
+Removing duplicate macrocells
+    Removing \LOG:BUART:tx_parity_bit\, Duplicate of \LOG:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\LOG:BUART:tx_parity_bit\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \LOG:BUART:tx_parity_bit\ (fanout=0)
+
+    Removing \LOG:BUART:tx_mark\, Duplicate of \LOG:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\LOG:BUART:tx_mark\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \LOG:BUART:tx_mark\ (fanout=0)
+
+    Removing \WIFIdev_Channel:BUART:rx_parity_bit\, Duplicate of \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_parity_bit\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:rx_parity_bit\ (fanout=0)
+
+    Removing \WIFIdev_Channel:BUART:rx_address_detected\, Duplicate of \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_address_detected\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:rx_address_detected\ (fanout=0)
+
+    Removing \WIFIdev_Channel:BUART:rx_parity_error_pre\, Duplicate of \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_parity_error_pre\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:rx_parity_error_pre\ (fanout=0)
+
+    Removing \WIFIdev_Channel:BUART:rx_markspace_pre\, Duplicate of \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_markspace_pre\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:rx_markspace_pre\ (fanout=0)
+
+    Removing \WIFIdev_Channel:BUART:rx_state_1\, Duplicate of \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_1\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_1\ (fanout=8)
+
+    Removing \WIFIdev_Channel:BUART:tx_parity_bit\, Duplicate of \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_parity_bit\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:tx_parity_bit\ (fanout=0)
+
+    Removing \WIFIdev_Channel:BUART:tx_mark\, Duplicate of \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_mark\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:tx_mark\ (fanout=0)
+
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+End removing duplicate macrocells: used 1 pass
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = Pin_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_1(0)__PA ,
+            input => Net_1_local ,
+            pad => Pin_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Rx_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: SYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: LVTTL
+            Slew: FAST
+            Input Sync needed: True
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Rx_1(0)__PA ,
+            fb => Net_12 ,
+            pad => Rx_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Tx_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Tx_1(0)__PA ,
+            input => Net_7 ,
+            pad => Tx_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Rx_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: SYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: True
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Rx_2(0)__PA ,
+            pad => Rx_2(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Tx_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Tx_2(0)__PA ,
+            input => Net_20 ,
+            pad => Tx_2(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=Net_7, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:txn\
+        );
+        Output = Net_7 (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:counter_load_not\, Mode=(Combinatorial)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:counter_load_not\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_fifo_empty\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_status_0\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:tx_fifo_notfull\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_status_2\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_counter_load\, Mode=(Combinatorial)
+        Total # of inputs        : 4
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_counter_load\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_postpoll\, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_12 * MODIN1_0
+            + MODIN1_1
+        );
+        Output = \WIFIdev_Channel:BUART:rx_postpoll\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_status_4\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \WIFIdev_Channel:BUART:rx_load_fifo\ * 
+              \WIFIdev_Channel:BUART:rx_fifofull\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_status_4\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_status_5\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \WIFIdev_Channel:BUART:rx_fifonotempty\ * 
+              \WIFIdev_Channel:BUART:rx_state_stop1_reg\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_status_5\ (fanout=1)
+
+    MacroCell: Name=Net_20, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\LOG:BUART:txn\
+        );
+        Output = Net_20 (fanout=1)
+
+    MacroCell: Name=\LOG:BUART:counter_load_not\, Mode=(Combinatorial)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\
+            + !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_state_2\
+        );
+        Output = \LOG:BUART:counter_load_not\ (fanout=1)
+
+    MacroCell: Name=\LOG:BUART:tx_status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_fifo_empty\ * 
+              \LOG:BUART:tx_state_2\
+        );
+        Output = \LOG:BUART:tx_status_0\ (fanout=1)
+
+    MacroCell: Name=\LOG:BUART:tx_status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\LOG:BUART:tx_fifo_notfull\
+        );
+        Output = \LOG:BUART:tx_status_2\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:txn\, Mode=(D-Register)
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \WIFIdev_Channel:BUART:txn\ * 
+              \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:txn\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_shift_out\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              !\WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_shift_out\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              !\WIFIdev_Channel:BUART:tx_counter_dp\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:txn\ (fanout=2)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_state_1\, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_counter_dp\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_state_1\ (fanout=8)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_state_0\, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              !\WIFIdev_Channel:BUART:tx_fifo_empty\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_fifo_empty\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_fifo_empty\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_state_0\ (fanout=8)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_state_2\, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_counter_dp\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_state_2\ (fanout=7)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_bitclk\, Mode=(D-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_bitclk_enable_pre\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_bitclk\ (fanout=4)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:tx_ctrl_mark_last\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ (fanout=8)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_0\, Mode=(T-Register)
+        Total # of inputs        : 11
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !Net_12 * !MODIN1_1
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !MODIN1_1 * !MODIN1_0
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_0\ (fanout=8)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_load_fifo\, Mode=(D-Register)
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_load_fifo\ (fanout=2)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_3\, Mode=(T-Register)
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_3\ (fanout=7)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_2\, Mode=(T-Register)
+        Total # of inputs        : 10
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !Net_12 * 
+              \WIFIdev_Channel:BUART:rx_last\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_2\ (fanout=7)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_bitclk_enable\, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * 
+              !\WIFIdev_Channel:BUART:rx_count_0\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_bitclk_enable\ (fanout=6)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_stop1_reg\, Mode=(D-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_stop1_reg\ (fanout=1)
+
+    MacroCell: Name=MODIN1_1, Mode=(D-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * !Net_12 * MODIN1_1
+            + !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * Net_12 * !MODIN1_1 * 
+              MODIN1_0
+            + !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * MODIN1_1 * !MODIN1_0
+        );
+        Output = MODIN1_1 (fanout=4)
+
+    MacroCell: Name=MODIN1_0, Mode=(D-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * !Net_12 * MODIN1_0
+            + !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * Net_12 * !MODIN1_0
+        );
+        Output = MODIN1_0 (fanout=5)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_status_3\, Mode=(D-Register)
+        Total # of inputs        : 8
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !Net_12 * !MODIN1_1
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !MODIN1_1 * !MODIN1_0
+        );
+        Output = \WIFIdev_Channel:BUART:rx_status_3\ (fanout=1)
+
+    MacroCell: Name=\WIFIdev_Channel:BUART:rx_last\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_12
+        );
+        Output = \WIFIdev_Channel:BUART:rx_last\ (fanout=1)
+
+    MacroCell: Name=\LOG:BUART:txn\, Mode=(D-Register)
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \LOG:BUART:txn\ * \LOG:BUART:tx_state_1\ * 
+              !\LOG:BUART:tx_bitclk\
+            + \LOG:BUART:txn\ * \LOG:BUART:tx_state_2\
+            + !\LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_shift_out\ * !\LOG:BUART:tx_state_2\
+            + !\LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_state_2\ * !\LOG:BUART:tx_bitclk\
+            + \LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_shift_out\ * !\LOG:BUART:tx_state_2\ * 
+              !\LOG:BUART:tx_counter_dp\ * \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:txn\ (fanout=2)
+
+    MacroCell: Name=\LOG:BUART:tx_state_1\, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_counter_dp\ * \LOG:BUART:tx_bitclk\
+            + \LOG:BUART:tx_state_0\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:tx_state_1\ (fanout=8)
+
+    MacroCell: Name=\LOG:BUART:tx_state_0\, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * !\LOG:BUART:tx_fifo_empty\
+            + !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_fifo_empty\ * !\LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_fifo_empty\ * 
+              \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_0\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:tx_state_0\ (fanout=8)
+
+    MacroCell: Name=\LOG:BUART:tx_state_2\, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_state_2\ * \LOG:BUART:tx_bitclk\
+            + \LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_counter_dp\ * \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:tx_state_2\ (fanout=7)
+
+    MacroCell: Name=\LOG:BUART:tx_bitclk\, Mode=(D-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_state_2\
+            + !\LOG:BUART:tx_bitclk_enable_pre\
+        );
+        Output = \LOG:BUART:tx_bitclk\ (fanout=4)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+
+    ------------------------------------------------------------
+    Datapath listing
+    ------------------------------------------------------------
+
+    datapathcell: Name =\WIFIdev_Channel:BUART:sTX:TxShifter:u0\
+        PORT MAP (
+            clock => \WIFIdev_Channel:Net_9\ ,
+            cs_addr_2 => \WIFIdev_Channel:BUART:tx_state_1\ ,
+            cs_addr_1 => \WIFIdev_Channel:BUART:tx_state_0\ ,
+            cs_addr_0 => \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ ,
+            so_comb => \WIFIdev_Channel:BUART:tx_shift_out\ ,
+            f0_bus_stat_comb => \WIFIdev_Channel:BUART:tx_fifo_notfull\ ,
+            f0_blk_stat_comb => \WIFIdev_Channel:BUART:tx_fifo_empty\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\WIFIdev_Channel:BUART:sTX:sCLOCK:TxBitClkGen\
+        PORT MAP (
+            clock => \WIFIdev_Channel:Net_9\ ,
+            cs_addr_0 => \WIFIdev_Channel:BUART:counter_load_not\ ,
+            ce0_reg => \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ ,
+            ce1_reg => \WIFIdev_Channel:BUART:tx_counter_dp\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\WIFIdev_Channel:BUART:sRX:RxShifter:u0\
+        PORT MAP (
+            clock => \WIFIdev_Channel:Net_9\ ,
+            cs_addr_2 => \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ ,
+            cs_addr_1 => \WIFIdev_Channel:BUART:rx_state_0\ ,
+            cs_addr_0 => \WIFIdev_Channel:BUART:rx_bitclk_enable\ ,
+            route_si => \WIFIdev_Channel:BUART:rx_postpoll\ ,
+            f0_load => \WIFIdev_Channel:BUART:rx_load_fifo\ ,
+            f0_bus_stat_comb => \WIFIdev_Channel:BUART:rx_fifonotempty\ ,
+            f0_blk_stat_comb => \WIFIdev_Channel:BUART:rx_fifofull\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000000000000000000000000000000000000000000000000001001000000000100000000000000010000001100000001000000000000000100100001000011111111000000001111111111111111101000000110001001000001111100000000000000001100"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\LOG:BUART:sTX:TxShifter:u0\
+        PORT MAP (
+            clock => \LOG:Net_9\ ,
+            cs_addr_2 => \LOG:BUART:tx_state_1\ ,
+            cs_addr_1 => \LOG:BUART:tx_state_0\ ,
+            cs_addr_0 => \LOG:BUART:tx_bitclk_enable_pre\ ,
+            so_comb => \LOG:BUART:tx_shift_out\ ,
+            f0_bus_stat_comb => \LOG:BUART:tx_fifo_notfull\ ,
+            f0_blk_stat_comb => \LOG:BUART:tx_fifo_empty\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\LOG:BUART:sTX:sCLOCK:TxBitClkGen\
+        PORT MAP (
+            clock => \LOG:Net_9\ ,
+            cs_addr_0 => \LOG:BUART:counter_load_not\ ,
+            ce0_reg => \LOG:BUART:tx_bitclk_enable_pre\ ,
+            ce1_reg => \LOG:BUART:tx_counter_dp\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+
+    ------------------------------------------------------------
+    StatusI register listing
+    ------------------------------------------------------------
+
+    statusicell: Name =\WIFIdev_Channel:BUART:sTX:TxSts\
+        PORT MAP (
+            clock => \WIFIdev_Channel:Net_9\ ,
+            status_3 => \WIFIdev_Channel:BUART:tx_fifo_notfull\ ,
+            status_2 => \WIFIdev_Channel:BUART:tx_status_2\ ,
+            status_1 => \WIFIdev_Channel:BUART:tx_fifo_empty\ ,
+            status_0 => \WIFIdev_Channel:BUART:tx_status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0000001"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    statusicell: Name =\WIFIdev_Channel:BUART:sRX:RxSts\
+        PORT MAP (
+            clock => \WIFIdev_Channel:Net_9\ ,
+            status_5 => \WIFIdev_Channel:BUART:rx_status_5\ ,
+            status_4 => \WIFIdev_Channel:BUART:rx_status_4\ ,
+            status_3 => \WIFIdev_Channel:BUART:rx_status_3\ ,
+            interrupt => Net_14 );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "1011111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    statusicell: Name =\LOG:BUART:sTX:TxSts\
+        PORT MAP (
+            clock => \LOG:Net_9\ ,
+            status_3 => \LOG:BUART:tx_fifo_notfull\ ,
+            status_2 => \LOG:BUART:tx_status_2\ ,
+            status_1 => \LOG:BUART:tx_fifo_empty\ ,
+            status_0 => \LOG:BUART:tx_status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0000001"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+
+    ------------------------------------------------------------
+    Count7 listing
+    ------------------------------------------------------------
+
+    count7cell: Name =\WIFIdev_Channel:BUART:sRX:RxBitCounter\
+        PORT MAP (
+            clock => \WIFIdev_Channel:Net_9\ ,
+            load => \WIFIdev_Channel:BUART:rx_counter_load\ ,
+            count_6 => MODIN4_6 ,
+            count_5 => MODIN4_5 ,
+            count_4 => MODIN4_4 ,
+            count_3 => MODIN4_3 ,
+            count_2 => \WIFIdev_Channel:BUART:rx_count_2\ ,
+            count_1 => \WIFIdev_Channel:BUART:rx_count_1\ ,
+            count_0 => \WIFIdev_Channel:BUART:rx_count_0\ ,
+            tc => \WIFIdev_Channel:BUART:rx_count7_tc\ );
+        Properties:
+        {
+            cy_alt_mode = 0
+            cy_init_value = "0000000"
+            cy_period = "1110010"
+            cy_route_en = 1
+            cy_route_ld = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =\WIFIdev_Channel:RXInternalInterrupt\
+        PORT MAP (
+            interrupt => Net_14 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
+    interrupt: Name =WIFIdev_Channel_RxISR
+        PORT MAP (
+            interrupt => Net_14 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    3 :    5 :    8 : 37.50 %
+Analog Clocks                 :    0 :    4 :    4 :  0.00 %
+CapSense Buffers              :    0 :    2 :    2 :  0.00 %
+Digital Filter Block          :    0 :    1 :    1 :  0.00 %
+Interrupts                    :    2 :   30 :   32 :  6.25 %
+IO                            :    8 :   40 :   48 : 16.67 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
+I2C                           :    0 :    1 :    1 :  0.00 %
+USB                           :    0 :    1 :    1 :  0.00 %
+DMA Channels                  :    0 :   24 :   24 :  0.00 %
+Timer                         :    0 :    4 :    4 :  0.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :   33 :  159 :  192 : 17.19 %
+  Unique P-terms              :   64 :  320 :  384 : 16.67 %
+  Total P-terms               :   76 :      :      :        
+  Datapath Cells              :    5 :   19 :   24 : 20.83 %
+  Status Cells                :    4 :   20 :   24 : 16.67 %
+    StatusI Registers         :    3 :      :      :        
+    Routed Count7 Load/Enable :    1 :      :      :        
+  Control Cells               :    1 :   23 :   24 :  4.17 %
+    Count7 Cells              :    1 :      :      :        
+Opamp                         :    0 :    4 :    4 :  0.00 %
+Comparator                    :    0 :    4 :    4 :  0.00 %
+Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
+LPF                           :    0 :    2 :    2 :  0.00 %
+SAR ADC                       :    0 :    2 :    2 :  0.00 %
+Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
+DAC                           :      :      :      :        
+  VIDAC                       :    0 :    4 :    4 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.046ms
+Tech Mapping phase: Elapsed time ==> 0s.218ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_1@[IOP=(2)][IoId=(1)] : Pin_1(0) (fixed)
+IO_3@[IOP=(12)][IoId=(3)] : Rx_1(0) (fixed)
+IO_6@[IOP=(12)][IoId=(6)] : Rx_2(0) (fixed)
+IO_2@[IOP=(12)][IoId=(2)] : Tx_1(0) (fixed)
+IO_7@[IOP=(12)][IoId=(7)] : Tx_2(0) (fixed)
+Analog Placement phase: Elapsed time ==> 0s.046ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+Analog Routing phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+}
+Map of item to net {
+}
+Mux Info {
+}
+Dump of CyP35AnalogRoutingResultsDB
+IsVddaHalfUsedForComp = False
+IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar1 = False
+Analog Code Generation phase: Elapsed time ==> 0s.249ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2076: Total run-time: 0.8 sec.
+
+</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :   12 :   36 :   48 :  25.00%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            6.67
+                   Pterms :            5.67
+               Macrocells :            2.75
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          6 :       9.17 :       5.50
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] is empty.
+UDB [UDB=(0,1)] is empty.
+UDB [UDB=(0,2)] is empty.
+UDB [UDB=(0,3)] is empty.
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] is empty.
+UDB [UDB=(1,1)] is empty.
+UDB [UDB=(1,2)] is empty.
+UDB [UDB=(1,3)] is empty.
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] contents:
+LAB@[UDB=(2,0)][LB=0] #macrocells=2, #inputs=6, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=\LOG:BUART:tx_state_0\, Mode=(T-Register) @ [UDB=(2,0)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * !\LOG:BUART:tx_fifo_empty\
+            + !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_fifo_empty\ * !\LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_fifo_empty\ * 
+              \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_0\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:tx_state_0\ (fanout=8)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\LOG:BUART:tx_bitclk\, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=2]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_state_2\
+            + !\LOG:BUART:tx_bitclk_enable_pre\
+        );
+        Output = \LOG:BUART:tx_bitclk\ (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(2,0)][LB=1] #macrocells=2, #inputs=11, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\WIFIdev_Channel:BUART:txn\, Mode=(D-Register) @ [UDB=(2,0)][LB=1][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \WIFIdev_Channel:BUART:txn\ * 
+              \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:txn\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_shift_out\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              !\WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_shift_out\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              !\WIFIdev_Channel:BUART:tx_counter_dp\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:txn\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\LOG:BUART:counter_load_not\, Mode=(Combinatorial) @ [UDB=(2,0)][LB=1][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\
+            + !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_state_2\
+        );
+        Output = \LOG:BUART:counter_load_not\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\WIFIdev_Channel:BUART:sTX:sCLOCK:TxBitClkGen\
+    PORT MAP (
+        clock => \WIFIdev_Channel:Net_9\ ,
+        cs_addr_0 => \WIFIdev_Channel:BUART:counter_load_not\ ,
+        ce0_reg => \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ ,
+        ce1_reg => \WIFIdev_Channel:BUART:tx_counter_dp\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,1)] contents:
+LAB@[UDB=(2,1)][LB=0] #macrocells=3, #inputs=8, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\LOG:BUART:txn\, Mode=(D-Register) @ [UDB=(2,1)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \LOG:BUART:txn\ * \LOG:BUART:tx_state_1\ * 
+              !\LOG:BUART:tx_bitclk\
+            + \LOG:BUART:txn\ * \LOG:BUART:tx_state_2\
+            + !\LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_shift_out\ * !\LOG:BUART:tx_state_2\
+            + !\LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_state_2\ * !\LOG:BUART:tx_bitclk\
+            + \LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_shift_out\ * !\LOG:BUART:tx_state_2\ * 
+              !\LOG:BUART:tx_counter_dp\ * \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:txn\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\LOG:BUART:tx_status_2\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\LOG:BUART:tx_fifo_notfull\
+        );
+        Output = \LOG:BUART:tx_status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_20, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\LOG:BUART:txn\
+        );
+        Output = Net_20 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,1)][LB=1] #macrocells=3, #inputs=7, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=\LOG:BUART:tx_state_2\, Mode=(T-Register) @ [UDB=(2,1)][LB=1][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              !\LOG:BUART:tx_state_2\ * \LOG:BUART:tx_bitclk\
+            + \LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_counter_dp\ * \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:tx_state_2\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\LOG:BUART:tx_status_0\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=1][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_fifo_empty\ * 
+              \LOG:BUART:tx_state_2\
+        );
+        Output = \LOG:BUART:tx_status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\LOG:BUART:tx_state_1\, Mode=(T-Register) @ [UDB=(2,1)][LB=1][MC=3]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\LOG:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \LOG:BUART:tx_state_1\ * \LOG:BUART:tx_state_0\ * 
+              \LOG:BUART:tx_bitclk_enable_pre\ * \LOG:BUART:tx_state_2\
+            + \LOG:BUART:tx_state_1\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_counter_dp\ * \LOG:BUART:tx_bitclk\
+            + \LOG:BUART:tx_state_0\ * !\LOG:BUART:tx_state_2\ * 
+              \LOG:BUART:tx_bitclk\
+        );
+        Output = \LOG:BUART:tx_state_1\ (fanout=8)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\LOG:BUART:sTX:TxShifter:u0\
+    PORT MAP (
+        clock => \LOG:Net_9\ ,
+        cs_addr_2 => \LOG:BUART:tx_state_1\ ,
+        cs_addr_1 => \LOG:BUART:tx_state_0\ ,
+        cs_addr_0 => \LOG:BUART:tx_bitclk_enable_pre\ ,
+        so_comb => \LOG:BUART:tx_shift_out\ ,
+        f0_bus_stat_comb => \LOG:BUART:tx_fifo_notfull\ ,
+        f0_blk_stat_comb => \LOG:BUART:tx_fifo_empty\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+statusicell: Name =\LOG:BUART:sTX:TxSts\
+    PORT MAP (
+        clock => \LOG:Net_9\ ,
+        status_3 => \LOG:BUART:tx_fifo_notfull\ ,
+        status_2 => \LOG:BUART:tx_status_2\ ,
+        status_1 => \LOG:BUART:tx_fifo_empty\ ,
+        status_0 => \LOG:BUART:tx_status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0000001"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,2)] contents:
+LAB@[UDB=(2,2)][LB=0] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_last\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_12
+        );
+        Output = \WIFIdev_Channel:BUART:rx_last\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_7, Mode=(Combinatorial) @ [UDB=(2,2)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:txn\
+        );
+        Output = Net_7 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(2,2)][LB=1] #macrocells=1, #inputs=2, #pterms=1
+{
+    [McSlotId=0]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_status_4\, Mode=(Combinatorial) @ [UDB=(2,2)][LB=1][MC=0]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \WIFIdev_Channel:BUART:rx_load_fifo\ * 
+              \WIFIdev_Channel:BUART:rx_fifofull\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_status_4\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\LOG:BUART:sTX:sCLOCK:TxBitClkGen\
+    PORT MAP (
+        clock => \LOG:Net_9\ ,
+        cs_addr_0 => \LOG:BUART:counter_load_not\ ,
+        ce0_reg => \LOG:BUART:tx_bitclk_enable_pre\ ,
+        ce1_reg => \LOG:BUART:tx_counter_dp\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+statusicell: Name =\WIFIdev_Channel:BUART:sRX:RxSts\
+    PORT MAP (
+        clock => \WIFIdev_Channel:Net_9\ ,
+        status_5 => \WIFIdev_Channel:BUART:rx_status_5\ ,
+        status_4 => \WIFIdev_Channel:BUART:rx_status_4\ ,
+        status_3 => \WIFIdev_Channel:BUART:rx_status_3\ ,
+        interrupt => Net_14 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "1011111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] is empty.
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] contents:
+LAB@[UDB=(3,0)][LB=0] #macrocells=3, #inputs=6, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\WIFIdev_Channel:BUART:tx_state_2\, Mode=(T-Register) @ [UDB=(3,0)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_counter_dp\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_state_2\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\WIFIdev_Channel:BUART:tx_state_1\, Mode=(T-Register) @ [UDB=(3,0)][LB=0][MC=1]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_counter_dp\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+            + \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_state_1\ (fanout=8)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\WIFIdev_Channel:BUART:tx_bitclk\, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=2]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_bitclk_enable_pre\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_bitclk\ (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\WIFIdev_Channel:BUART:tx_state_0\, Mode=(T-Register) @ [UDB=(3,0)][LB=1][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              !\WIFIdev_Channel:BUART:tx_fifo_empty\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_fifo_empty\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_1\ * 
+              \WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_fifo_empty\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+            + \WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_state_0\ (fanout=8)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\WIFIdev_Channel:BUART:counter_load_not\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=1][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\
+            + !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              !\WIFIdev_Channel:BUART:tx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:counter_load_not\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\WIFIdev_Channel:BUART:tx_status_2\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:tx_fifo_notfull\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\WIFIdev_Channel:BUART:tx_status_0\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=1][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:tx_state_1\ * 
+              !\WIFIdev_Channel:BUART:tx_state_0\ * 
+              \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ * 
+              \WIFIdev_Channel:BUART:tx_fifo_empty\ * 
+              \WIFIdev_Channel:BUART:tx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:tx_status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\WIFIdev_Channel:BUART:sTX:TxShifter:u0\
+    PORT MAP (
+        clock => \WIFIdev_Channel:Net_9\ ,
+        cs_addr_2 => \WIFIdev_Channel:BUART:tx_state_1\ ,
+        cs_addr_1 => \WIFIdev_Channel:BUART:tx_state_0\ ,
+        cs_addr_0 => \WIFIdev_Channel:BUART:tx_bitclk_enable_pre\ ,
+        so_comb => \WIFIdev_Channel:BUART:tx_shift_out\ ,
+        f0_bus_stat_comb => \WIFIdev_Channel:BUART:tx_fifo_notfull\ ,
+        f0_blk_stat_comb => \WIFIdev_Channel:BUART:tx_fifo_empty\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+statusicell: Name =\WIFIdev_Channel:BUART:sTX:TxSts\
+    PORT MAP (
+        clock => \WIFIdev_Channel:Net_9\ ,
+        status_3 => \WIFIdev_Channel:BUART:tx_fifo_notfull\ ,
+        status_2 => \WIFIdev_Channel:BUART:tx_status_2\ ,
+        status_1 => \WIFIdev_Channel:BUART:tx_fifo_empty\ ,
+        status_0 => \WIFIdev_Channel:BUART:tx_status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0000001"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,1)] contents:
+LAB@[UDB=(3,1)][LB=0] #macrocells=4, #inputs=6, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=MODIN1_1, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * !Net_12 * MODIN1_1
+            + !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * Net_12 * !MODIN1_1 * 
+              MODIN1_0
+            + !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * MODIN1_1 * !MODIN1_0
+        );
+        Output = MODIN1_1 (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_postpoll\, Mode=(Combinatorial) @ [UDB=(3,1)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_12 * MODIN1_0
+            + MODIN1_1
+        );
+        Output = \WIFIdev_Channel:BUART:rx_postpoll\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=MODIN1_0, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=2]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * !Net_12 * MODIN1_0
+            + !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * Net_12 * !MODIN1_0
+        );
+        Output = MODIN1_0 (fanout=5)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_bitclk_enable\, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:rx_count_2\ * 
+              !\WIFIdev_Channel:BUART:rx_count_1\ * 
+              !\WIFIdev_Channel:BUART:rx_count_0\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_bitclk_enable\ (fanout=6)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,1)][LB=1] #macrocells=1, #inputs=2, #pterms=1
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_status_5\, Mode=(Combinatorial) @ [UDB=(3,1)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \WIFIdev_Channel:BUART:rx_fifonotempty\ * 
+              \WIFIdev_Channel:BUART:rx_state_stop1_reg\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_status_5\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\WIFIdev_Channel:BUART:sRX:RxShifter:u0\
+    PORT MAP (
+        clock => \WIFIdev_Channel:Net_9\ ,
+        cs_addr_2 => \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ ,
+        cs_addr_1 => \WIFIdev_Channel:BUART:rx_state_0\ ,
+        cs_addr_0 => \WIFIdev_Channel:BUART:rx_bitclk_enable\ ,
+        route_si => \WIFIdev_Channel:BUART:rx_postpoll\ ,
+        f0_load => \WIFIdev_Channel:BUART:rx_load_fifo\ ,
+        f0_bus_stat_comb => \WIFIdev_Channel:BUART:rx_fifonotempty\ ,
+        f0_blk_stat_comb => \WIFIdev_Channel:BUART:rx_fifofull\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000000000000000000000000000000000000000000000000001001000000000100000000000000010000001100000001000000000000000100100001000011111111000000001111111111111111101000000110001001000001111100000000000000001100"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,2)] contents:
+LAB@[UDB=(3,2)][LB=0] #macrocells=4, #inputs=11, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_0\, Mode=(T-Register) @ [UDB=(3,2)][LB=0][MC=0]
+        Total # of inputs        : 11
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !Net_12 * !MODIN1_1
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !MODIN1_1 * !MODIN1_0
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_0\ (fanout=8)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_counter_load\, Mode=(Combinatorial) @ [UDB=(3,2)][LB=0][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_counter_load\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_3\, Mode=(T-Register) @ [UDB=(3,2)][LB=0][MC=2]
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_3\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_stop1_reg\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=3]
+        Total # of inputs        : 4
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_stop1_reg\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,2)][LB=1] #macrocells=4, #inputs=12, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_state_2\, Mode=(T-Register) @ [UDB=(3,2)][LB=1][MC=0]
+        Total # of inputs        : 10
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !Net_12 * 
+              \WIFIdev_Channel:BUART:rx_last\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_state_2\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_load_fifo\, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=1]
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_5
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              \WIFIdev_Channel:BUART:rx_state_0\ * 
+              !\WIFIdev_Channel:BUART:rx_state_3\ * 
+              !\WIFIdev_Channel:BUART:rx_state_2\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \WIFIdev_Channel:BUART:rx_load_fifo\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\WIFIdev_Channel:BUART:rx_status_3\, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=2]
+        Total # of inputs        : 8
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !Net_12 * !MODIN1_1
+            + !\WIFIdev_Channel:BUART:tx_ctrl_mark_last\ * 
+              !\WIFIdev_Channel:BUART:rx_state_0\ * 
+              \WIFIdev_Channel:BUART:rx_bitclk_enable\ * 
+              \WIFIdev_Channel:BUART:rx_state_3\ * 
+              \WIFIdev_Channel:BUART:rx_state_2\ * !MODIN1_1 * !MODIN1_0
+        );
+        Output = \WIFIdev_Channel:BUART:rx_status_3\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\WIFIdev_Channel:BUART:tx_ctrl_mark_last\, Mode=(T-Register) @ [UDB=(3,2)][LB=1][MC=3]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\WIFIdev_Channel:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \WIFIdev_Channel:BUART:tx_ctrl_mark_last\ (fanout=8)
+        Properties               : 
+        {
+        }
+}
+
+count7cell: Name =\WIFIdev_Channel:BUART:sRX:RxBitCounter\
+    PORT MAP (
+        clock => \WIFIdev_Channel:Net_9\ ,
+        load => \WIFIdev_Channel:BUART:rx_counter_load\ ,
+        count_6 => MODIN4_6 ,
+        count_5 => MODIN4_5 ,
+        count_4 => MODIN4_4 ,
+        count_3 => MODIN4_3 ,
+        count_2 => \WIFIdev_Channel:BUART:rx_count_2\ ,
+        count_1 => \WIFIdev_Channel:BUART:rx_count_1\ ,
+        count_0 => \WIFIdev_Channel:BUART:rx_count_0\ ,
+        tc => \WIFIdev_Channel:BUART:rx_count7_tc\ );
+    Properties:
+    {
+        cy_alt_mode = 0
+        cy_init_value = "0000000"
+        cy_period = "1110010"
+        cy_route_en = 1
+        cy_route_ld = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,3)] is empty.
+UDB [UDB=(3,4)] is empty.
+UDB [UDB=(3,5)] is empty.
+Intr container @ [IntrContainer=(0)]: 
+  Intr@ [IntrContainer=(0)][IntrId=(0)] 
+    interrupt: Name =WIFIdev_Channel_RxISR
+        PORT MAP (
+            interrupt => Net_14 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+  Intr@ [IntrContainer=(0)][IntrId=(1)] 
+    interrupt: Name =\WIFIdev_Channel:RXInternalInterrupt\
+        PORT MAP (
+            interrupt => Net_14 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+Drq container @ [DrqContainer=(0)]: empty
+Port 0 is empty
+Port 1 is empty
+Port 2 contains the following IO cells:
+[IoId=1]: 
+Pin : Name = Pin_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_1(0)__PA ,
+        input => Net_1_local ,
+        pad => Pin_1(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 3 is empty
+Port 12 contains the following IO cells:
+[IoId=2]: 
+Pin : Name = Tx_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Tx_1(0)__PA ,
+        input => Net_7 ,
+        pad => Tx_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = Rx_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: SYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: LVTTL
+        Slew: FAST
+        Input Sync needed: True
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Rx_1(0)__PA ,
+        fb => Net_12 ,
+        pad => Rx_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=6]: 
+Pin : Name = Rx_2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: SYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: True
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Rx_2(0)__PA ,
+        pad => Rx_2(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = Tx_2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Tx_2(0)__PA ,
+        input => Net_20 ,
+        pad => Tx_2(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 15 is empty
+ARM group 0: empty
+CAN 2.0b group 0: empty
+Cache group 0: empty
+CapSense group 0: empty
+Clock group 0: 
+    Clock Block @ F(Clock,0): 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            imo => ClockBlock_IMO ,
+            pllout => ClockBlock_PLL_OUT ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            xtal => ClockBlock_XTAL ,
+            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_bus_glb => ClockBlock_BUS_CLK ,
+            clk_bus => ClockBlock_BUS_CLK_local ,
+            dclk_glb_0 => \LOG:Net_9\ ,
+            dclk_0 => \LOG:Net_9_local\ ,
+            dclk_glb_1 => \WIFIdev_Channel:Net_9\ ,
+            dclk_1 => \WIFIdev_Channel:Net_9_local\ ,
+            dclk_glb_2 => Net_1 ,
+            dclk_2 => Net_1_local );
+        Properties:
+        {
+        }
+Comparator group 0: empty
+Digital Filter Block group 0: empty
+Delta-Sigma ADC group 0: empty
+Decimator group 0: empty
+EMIF group 0: empty
+I2C group 0: empty
+Segment LCD group 0: empty
+LVD group 0: empty
+PM group 0: empty
+Analog (SC/CT) Blocks group 0: empty
+SPC group 0: empty
+Timer group 0: empty
+USB group 0: empty
+VIDAC group 0: empty
+Opamp group 0: empty
+CapSense Buffers group 0: empty
+Vref group 0: empty
+LPF group 0: empty
+SAR ADC group 0: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |          | 
+Port | Pin | Fixed |      Type |       Drive Mode |     Name | Connections
+-----+-----+-------+-----------+------------------+----------+----------------
+   2 |   1 |     * |      NONE |         CMOS_OUT | Pin_1(0) | In(Net_1_local)
+-----+-----+-------+-----------+------------------+----------+----------------
+  12 |   2 |     * |      NONE |         CMOS_OUT |  Tx_1(0) | In(Net_7)
+     |   3 |     * |      NONE |     HI_Z_DIGITAL |  Rx_1(0) | FB(Net_12)
+     |   6 |     * |      NONE |     HI_Z_DIGITAL |  Rx_2(0) | 
+     |   7 |     * |      NONE |         CMOS_OUT |  Tx_2(0) | In(Net_20)
+------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.000ms
+Digital Placement phase: Elapsed time ==> 1s.123ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+Routing successful.
+Digital Routing phase: Elapsed time ==> 1s.679ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.176ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.031ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in Design01_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.343ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.187ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 4s.102ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 4s.102ms
+API generation phase: Elapsed time ==> 0s.889ms
+Dependency generation phase: Elapsed time ==> 0s.015ms
+Cleanup phase: Elapsed time ==> 0s.000ms
